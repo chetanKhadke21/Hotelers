@@ -1,0 +1,128 @@
+/* Navbar */
+.navbar{
+    height: 5rem;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.nav-link{
+    color: #222222;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    padding: 1rem;
+    gap: 0.4rem;
+}
+
+.f-info-socials, .f-info-brand, .f-info-privacy{
+    width: 100%;
+    display: flex;   
+    justify-content: center;
+}
+
+.f-info-socials i{
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.f-info-brand{
+    margin-top: 0.3rem;
+}
+
+.f-info-privacy a{
+    color: #222222;
+    text-decoration: none;
+    margin:0  0.4rem;
+}
+
+.f-info-privacy a:hover{
+    text-decoration: underline;
+}
+
+/* Place List */
+.details-link{
+    text-decoration: none;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;  
+    padding: 1rem;
+}
+
+.card{
+    border: none;
+}
+
+.listing-card{
+    margin: 1rem;
+}
+
+.review-card{
+    border: 1px solid black;
+}
+
+.card img:hover{
+    opacity: 0.8;
+}
+
+.image{
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.cards .card-img-overlay:hover{
+    color: #ebebeb;
+    opacity: 1;
+}
+
+/* Add Place Page */
+.btn:hover{
+    border-radius: 1.3rem;
+}
+
+/* Edit Page */
+.btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card img{
+    border-radius: 1rem;
+}
+
+.textarea-width{
+    width: 30rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
