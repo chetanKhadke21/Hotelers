@@ -24,6 +24,10 @@ const store = MongoStore.create({
     touchAfter: 24 * 3600 // 1 day
 });
 
+store.on("error", () => {
+    console.log("Mongo Store Error", error);
+});
+
 app.use(session({
     store,
     secret: process.env.SECRET,
