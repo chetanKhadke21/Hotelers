@@ -19,14 +19,14 @@ const user = require("./models/user.js");
 const store = MongoStore.create({
     mongoUrl: process.env.MONGO_ATLAS_URL,
     crypto: {
-        secret: "secretKey"
+        secret: process.env.SECRET
     },
     touchAfter: 24 * 3600 // 1 day
 });
 
 app.use(session({
     store,
-    secret: 'secretKey',
+    secret: process.env.SECRET,
     resave: false,
     saveUninitialized: true,
     cookie :{
